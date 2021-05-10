@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6fe91f1-3cbb-48b0-876a-59e35ad4b8fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/dao/CourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/StudentCourses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/entitymodels/StudentCoursesId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/mainrunner/SMSRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/util/JpaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jpa/service/StudentServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sBs76mA3I6fWSkiFrLT8hm6Qsj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JunitExercise" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\per scholas\JavaAssignments\SMS\src\main\java\jpa\entitymodels" />
+      <recent name="C:\per scholas\JavaAssignments\SMS\src\main\java\jpa\mainrunner" />
+      <recent name="C:\per scholas\JavaAssignments\SMS\src\main\resources\META-INF" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="jpa.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SMSRunner">
+    <configuration name="SMSRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpa.mainrunner.SMSRunner" />
+      <module name="SMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.mainrunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="jpa.service.StudentServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.testGetAllStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="jpa.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="testGetAllStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.testRegisterStudentToCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="jpa.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="testRegisterStudentToCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.testValidateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa.service" />
+      <option name="MAIN_CLASS_NAME" value="jpa.service.StudentServiceTest" />
+      <option name="METHOD_NAME" value="testValidateStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SMSRunner" />
+        <item itemvalue="JUnit.StudentServiceTest.testValidateStudent" />
+        <item itemvalue="JUnit.StudentServiceTest.testGetAllStudents" />
+        <item itemvalue="JUnit.StudentServiceTest" />
+        <item itemvalue="JUnit.StudentServiceTest.testRegisterStudentToCourse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6fe91f1-3cbb-48b0-876a-59e35ad4b8fd" name="Default Changelist" comment="" />
+      <created>1620357152132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620357152132</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
