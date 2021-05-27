@@ -22,7 +22,8 @@ Use your RDBMS to that stores the following tables. The tables should contain th
  
 
 ###Table 1 – Student table:
-Datatype|Name|Description
+|Datatype|Name|Description|
+| ------------|:---------|:-----|
 varchar(50) not null (PK)|email|Student’s current school email, unique student identifier
 varchar(50) not null|name|The full name of the student
 varchar(50) not null|password|Student’s password in order to log in
