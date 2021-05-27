@@ -17,7 +17,7 @@ Use your RDBMS to that stores the following tables. The tables should contain th
 
 ### Format:
 |Datatype|Name|Description|
-|______________________|____________________|__________________________|
+| ------------|:---------|:-----|
 |The type of data contained in this column|The name of the column|The description of what this column will contain|
  
 
