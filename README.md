@@ -16,8 +16,8 @@ Valid students are able to register to any course in the system as long as they 
 Use your RDBMS to that stores the following tables. The tables should contain the columns from the specification below. You can generate the required tables (without rows) from your entities by using JPA. The tables will be in the following format:
 
 ### Format:
-Datatype|Name|Description
-The  type  of  data contained  in  this column|The  name     of     the column|The description of what this column will contain
+|Datatype|Name|Description|
+|The type of data contained in this column|The name of the column|The description of what this column will contain|
  
 
 ###Table 1 – Student table:
