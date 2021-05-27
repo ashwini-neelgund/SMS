@@ -21,28 +21,29 @@ Use your RDBMS to that stores the following tables. The tables should contain th
 |The type of data contained in this column|The name of the column|The description of what this column will contain|
  
 
-###Table 1 – Student table:
+### Table 1 – Student table:
 |Datatype|Name|Description|
 | ------------|:---------|:-----|
 varchar(50) not null (PK)|email|Student’s current school email, unique student identifier
 varchar(50) not null|name|The full name of the student
 varchar(50) not null|password|Student’s password in order to log in
 
-###Table 2 – Course table:
+### Table 2 – Course table:
 Datatype|Name|Description
+| ------------|:---------|:-----|
 int not null (PK)|id|Unique Course Identifier
 varchar(50) not null|name|Provides the name of the course
 varchar(50) not null|Instructor|Provides the name of the instructor
 
 Now, insert test/dummy rows in Table 1 and Table 2 using SQL statements. Necessary SQL statements will be found here: Student.sql  downloadand Course.sql download
 
-##Requirement 2: Your project name will be SMS.
+## Requirement 2: Your project name will be SMS.
 
-###Entity Model Class:
+### Entity Model Class:
 Create a package in the src folder named: jpa.entitymodels, in this package you will create every entity model class for this project.
 Use the appropriate annotation on to indicate that your models are to be used as an Entities, the name of the table each entity is based on, the variable that is used as a primary key, relationship, and the name of the column each variable is based on each entity.
 
-###Every Model class must contain the following general two requirements:
+### Every Model class must contain the following general two requirements:
 The first constructor takes no parameters and it initializes every member to an initial value.
 The second constructor must initialize every private member with a parameter provided to the constructor.
 Create a class Student with the private member variables specified in TABLE 1. These private members must have GETTERS and SETTERS methods.
@@ -50,6 +51,7 @@ Create a class Student with the private member variables specified in TABLE 1. T
 The purpose of the Student class is to carry data related to one student.
 Student:
 Datatype|Name|Description
+| ------------|:---------|:-----|
 String|sEmail|Student’s current school email, unique student identifier
 String|sName|The full name of the student
 String|sPass|Student’s password in order to log in
@@ -60,13 +62,14 @@ The purpose of the Course class is to carry data related to one Course.
 
 Course:
 Datatype|Name|Description
+| ------------|:---------|:-----|
 int|cId|Unique course Identifier
 String|cName|Provides the name of the course
 String|cInstructorName|Provides the name of the instructor
 
-##Requirement 3:
+## Requirement 3:
 
-###Data Access Object (DAO)
+### Data Access Object (DAO)
 You can NOT add more methods in the interfaces than the definition below.
 In src folder, under the package names: jpa.dao, create an interface and call it StudentDAO. This interface is going to be have the following method declarations. Please include the proper method signature based on the Service table:
 -getAllStudents();
@@ -78,9 +81,9 @@ In src folder, under the package names: jpa.dao, create an interface and call it
 Create another service as CourseDAO. This interface is going to have the following method declarations. Please include the proper method signature based on the Service table:
 -getAllCourses();
 
-##Requirement 4:
+## Requirement 4:
 
-###Services (Implementation)
+### Services (Implementation)
 You might have some helper methods of your own in the services if necessary.
 In src folder, under the package named: jpa.service, create two classes as StudentService andCourseService which implements the respective DAOs. These classes are going to be used to interact with the respective tables in your database instance.
 
@@ -89,6 +92,7 @@ Return Type|
 Class Name|
 Method Nam|
 Input Parameters
+| ------------|:---------|:-----|:---------|:-----|
 1|
 List<Student>|
 StudentService|
@@ -126,8 +130,8 @@ getAllCourses|
 –This method takes no parameter and returns every Course in the table.|
 None
 
-##Requirement 5:
-###Main Entry
+## Requirement 5:
+### Main Entry
 Create a package in the src folder named: jpa.mainrunner, in this package you will create a class as SMSRunner. This class will be used to run the School Management System.
 
 No.|
@@ -135,7 +139,7 @@ Return Type|
 Class Name|
 Method Name|
 Input Parameters
-
+| ------------|:---------|:-----|:---------|:-----|
 1|
 void|
 SMSRunner|
@@ -149,7 +153,7 @@ If the credentials are valid, the student is logged in and all the classes the S
 2. quit: which ends the program with an appropriate message.|
 String[] args
 
-###Example Workflow: This the minimum required workflow, you can always enhance it.
+### Example Workflow: This the minimum required workflow, you can always enhance it.
 
 Are you a(n)
 -Student
@@ -190,5 +194,5 @@ COURSE ID   COURSE NAME     INSTRUCTOR NAME
 
 You have been signed out.
 
-##Requirement 6:
+## Requirement 6:
 Handle all possible exceptions and include appropriate commenting. Test at least one of your methods using Junit.
