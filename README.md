@@ -92,7 +92,7 @@ Return Type|
 Class Name|
 Method Nam|
 Input Parameters
-| ------------|:---------|:-----|:---------|:-----|
+|------------|:---------|:-----|:---------|:-----|
 1|
 List<Student>|
 StudentService|
@@ -139,7 +139,7 @@ Return Type|
 Class Name|
 Method Name|
 Input Parameters
-| ------------|:---------|:-----|:---------|:-----|
+|------------|:---------|:-----|:---------|:-----|
 1|
 void|
 SMSRunner|
@@ -167,7 +167,7 @@ Enter Your Password:
 333
 
 My Classes:
-#   COURSE NAME  INSTRUCTOR NAME
+   COURSE NAME  INSTRUCTOR NAME
 1   GYM                    Mark        
 2   Math                   Luke                 
 
