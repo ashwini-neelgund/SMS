@@ -2,22 +2,22 @@
 
 SBA - Core Java/JPA/JUnit Project for Per Scholas
 
-##Business Requirement:
+## Business Requirement:
 Your task is to create a basic School Management System where students can register to courses, and view the course assigned to them.
 
-##Work-Flow:
+## Work-Flow:
 Only students with the right credentials can log in. Otherwise, a message is displayed stating: “Wrong Credentials”.
 Valid students are able to see the courses they are registered.
 Valid students are able to register to any course in the system as long as they are NOT already registered.
 
-##Requirement 1:
+## Requirement 1:
 
-###Tables
+### Tables
 Use your RDBMS to that stores the following tables. The tables should contain the columns from the specification below. You can generate the required tables (without rows) from your entities by using JPA. The tables will be in the following format:
 
-###Format:
-Datatype | Name | Description
-The  type  of  data contained  in  this column | The  name     of     the column | The description of what this column will contain
+### Format:
+Datatype|Name|Description
+The  type  of  data contained  in  this column|The  name     of     the column|The description of what this column will contain
  
 
 ###Table 1 – Student table:
